@@ -1,0 +1,19 @@
+{
+  "name": "vuedesk-bundle",
+  "version": "0.0.1",
+  "description": "Pre-packaged dev environment for Vuedesk",
+  "private": true,
+  "scripts": {
+    "zip:linux_x64": "./bundle.js zip linux_x64"
+  },
+  "dependencies": {
+    "7zip-bin": "^4.1.0",
+    "commander": "^2.20.0",
+    "fs-extra": "^7.0.1",
+    "gauge": "^2.7.4",
+    "node-7z": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=8.9"
+  }
+}
